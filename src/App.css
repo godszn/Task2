@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* font-family: 'Poppins', sans-serif !important; */
+  font-family: 'Roboto', sans-serif !important;
+  /* font-family: 'Rubik', sans-serif !important;
+  font-family: 'Wix Madefor Display', sans-serif !important; */
+}
+
+
+.input {
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 0.3rem;
+  padding: 0.4rem;
+  width: 550px;
+}
+
+.input::placeholder {
+  color: white;
+}
+
+.Movie-title > h1 {
+  width: 30%;
+  letter-spacing: .2rem !important;
+  line-height: 2.5rem !important;
+}
+
+.movie-description {
+  width: 28%;
+  line-height: 1.6rem;
+}
+
+.trailer-btn-wrapper {
+  background-color: #ff000080;
+  align-items: center;
+  font-size: x-small;
+  margin: 1rem;
+  margin-top: 0;
+  letter-spacing: 1px;
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+  transition: background-color 1s ease-in-out;
+  cursor: pointer;
+}
+
+.trailer-btn {
+  margin: .6rem;
+}
+
+.trailer-btn > h1 {
+  margin-left: 0.5rem;
+  color: whitesmoke;
+  font-weight: 600;
+}
+
+.trailer-btn-wrapper:hover {
+  background-color: rgb(172, 50, 50);
+}
+
+.detail-text {
+  color:  rgb(172, 50, 50);
+}
+
+.stranger {
+  width: 70%;
+  border-radius:.4rem;
+}
+
+.tomatoes {
+  margin-right: .5rem;
+  margin-left: 85%;
+}
+
+.container1-text h1{
+   width: 82%;
+}
+
+.featured-movies-wrapper .moviebox-footer-wrapper {
+  background-color: whitesmoke;
+}
